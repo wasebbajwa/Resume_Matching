@@ -7,3 +7,6 @@ In this project, I wanted to create a model that would be capable of, if given a
 ## Data
 The data was obtained by webscraping Linkedin and other job posting websites in order to get job descriptions, education preferences, information about the company, etc.
 
+## Methods Used
+
+Doc 2 Vec was used in order to summarize the documents as it performed the best when compared to other methods such as RNNs or LSTMs. After creating vectors for each document, we will be able to compare a resume or bio to a matching job description.
